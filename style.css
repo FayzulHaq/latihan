@@ -1,0 +1,159 @@
+
+.carousel-caption h1{
+    color: #FFA907;
+    font-size:60px;
+    text-transform: uppercase;
+}
+.carousel-item{
+    position:relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.booking{
+    color:#FFA907;
+    margin:10px;
+    padding:10px 30px 10px 30px;
+    background-color:none;
+    border-radius: 20px;
+    border:3px solid #FFA907;
+    transition:all .2s ease ;
+    font-size: 2em;
+    box-shadow: 10px 10px 30px rgba(0,0,0,.5);
+}
+.booking:hover{
+    background-color: #FFA907;
+    color:#fff;
+    text-decoration:none;
+}
+
+.carousel-caption h5{
+    margin-top: 10px;
+    font-weight: 200;
+    color: rgb(245, 245, 245);
+}
+.carousel-caption{
+    position:absolute;
+    top:30%;
+}
+.info{
+    text-align:center;
+    letter-spacing: 1.2px;
+}
+
+@media only screen and (max-width: 760px) {
+    .carousel-caption{
+        top:30px !important;
+    }
+    .carousel-caption h5{
+        margin-top: 10px;
+        font-size: 12px;
+        color: rgb(245, 245, 245);
+    }
+    .carousel-caption h1{
+        font-size:30px !important;
+    }
+    .booking{
+        font-size:30px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .carousel-caption{
+        top:45px;
+        margin-top: 10px;
+    }
+    .carousel-caption h1{
+        font-size:50px;
+    }
+    .booking{
+        font-size:20px;
+    }
+  }
+/* main */
+main{
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 14%, rgba(255,213,134,1) 42%, rgba(255,169,7,1) 100%);
+}
+.my-card{
+    box-shadow: 3px 7px 10px rgba(222, 146, 2,0.3);
+    border:none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+}
+/* navbar */
+.navbar-brand{
+    color:white;
+    font-size:2em;
+}
+.scrolled{
+    background-color:rgba(0,0,0);
+}
+.my-header{
+    width:90% !important;
+    margin:0 auto !important;
+}
+
+#navbarNavAltMarkup{
+    text-align:center !important;
+    margin-left:32vw;
+}
+#navbarNavAltMarkup a{
+    font-size:1.2em;
+}
+@media only screen and (max-width: 1000px) {
+    #navbarNavAltMarkup{
+        background-color:rgba(0,0,0);
+        width:100vw;
+        padding-top:50px;
+        padding-bottom: 50px;
+        margin-left:0;
+    }
+}
+/* form */
+.title-form{
+    color: #FFA907;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+form{
+    padding-bottom: 100px;
+}
+
+.my-btn[type="submit"]{
+    padding: 15px;
+    border-radius: 20px;
+    border:1px solid rgb(48, 131, 219)
+}
+.my-btn[type="submit"]:hover{
+    background-color: rgb(48, 131, 219);
+    color:white;
+}
+.my-btn img{
+    width: 150px;
+    padding: 15px;
+    border-radius: 20px;
+    border:1px solid rgb(48, 131, 219)
+}
+.button {
+    display:block;
+    text-align:center
+}
+/* service */
+section .card-header{
+    color:black !important;
+    font-size: 2em !important;
+    text-align: center;
+    background-color: rgba(255, 169, 7,0.7);
+}
+section .card-body{
+    background-color: rgba(255, 169, 7,0.2);
+}
+section .card{
+    box-shadow:2px 5px 10px rgba(0,0,0,.2)
+}
